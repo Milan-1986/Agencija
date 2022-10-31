@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(77, 79, 109);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.naslov {
+  margin: 0.5% 0 0 1.5%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: white;
+}
+
+
+.navbar>ul {
+  display: flex;
+}
+
+.navbar>ul>li {
+  width: 150px;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 2%;
+  cursor: pointer;
+  font-size: 120%;
+  list-style: none;
+}
+
+.navbar>ul>li:hover {
+  background-color: rgb(92, 97, 139);
+}
+
+.navbar li a {
+  color: rgba(255, 255, 255, 0.849);
+  text-decoration: none;
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+.navbar li a:hover {
+  color: rgb(0, 255, 21)
+}
+
+.naslov2-menjačnica {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+/* Menjačnica -- componenta -- tabela */
+
+.menjačnica-tabela {
+  border-radius: 0 0 15px 15px;
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.menjačnica-tabela-caption {
+  border-radius: 15px 15px 0 0;
+  background-color: white;
+}
+
+.menjačnica-tabela-head th {
+  width: 100px;
+  padding: 1%;
+}
+
+.menjačnica-tabela-body td {
+  padding: 1%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.menjačnica tbody>tr:last-child>td {
+  border-bottom: 0;
+}
+
+/* Telo komponenta  - Početna strana  */
+
+.telo {
+  border-radius: 15px;
+  margin: 0 10% 5%;
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: larger;
+  background-color: rgba(255, 255, 255, 0.674);
+  line-height: 2;
+
+}
+
+.telo-naslov {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.telo h3 {
+  text-align: center;
+  padding: 0 0 5%;
+}
+
+.telo p {
+  font-weight: 200;
+  padding: 0% 5% 5%;
+}
+
+/* Agencija  */
+
+.agencija {
+  border-radius: 15px;
+  /* font-family: 'Dancing Script', cursive; */
+  margin: 0 10% 5%;
+  background-color: rgba(255, 255, 255, 0.674);
+  line-height: 2;
+}
+
+#agencija-naslov {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.agencija-telo {
+  font-size: larger;
+  font-weight: 200;
+  padding: 5% 5%;
+}
+
+
+/* USLUGE */
+
+
+.usluge {
+  border-radius: 15px;
+  margin: 0 20%;
+  background-color: rgba(255, 255, 255, 0.397);
+  text-align: center;
+  line-height: 200%;
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+.usluge-naslov {
+  font-size: x-large;
+  padding-top: 3%;
+}
+
+.usluge-lista>ul {
+  font-size: larger;
+  font-weight: 500;
+  padding: 5%;
+  list-style: none;
+}
+
+/* KALKULATOR */
+
+.kalkulator-tekst {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  background-color: rgb(255, 255, 255, 0.397);
+  margin: 1% 10% 0;
+  padding-top: 1%;
+  border-radius: 15px 15px 0 0;
+}
+
+.kalkulator {
+  /* font-family: 'Dancing Script', cursive; */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255, 0.397);
+  margin: 0 10% 5%;
+  padding: 2% 0;
+  font-size: x-large;
+  border-radius: 0 0 15px 15px;
+}
+
+.kalkulator-caption {
+  margin: 3% 0 10%;
+}
+
+.kalkulator input {
+  border: 2px solid black;
+  text-align: center;
+  margin-left: 10px;
+  min-height: 30px;
+}
+
+
+
+/* KONTAKT  */
+
+.kontakt {
+  background-color: rgb(255, 255, 255, 0.397);
+  padding: 2%;
+  text-align: center;
+  border-radius: 15px;
+  /* font-family: 'Dancing Script', cursive; */
+  font-weight: 100;
+  margin: 0 15% 5%;
+}
+
+.kontakt h4 {
+  font-size: large;
+  font-weight: 400;
+  margin: 2%;
+}
+
+.kontakt-telo {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+.kontakt-telo article {
+  flex: 0 0 33%;
+}
+
+#mapa {
+  border-radius: 15px;
+  border-width: 0px;
+}
+
+.kontakt-forma-mejl>input,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 7px;
+  /* Some padding */
+  border: 1.5px solid rgb(0, 0, 0);
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+}
